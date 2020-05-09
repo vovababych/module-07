@@ -260,8 +260,8 @@
         resize: none;
     }
     
-    .user-data-input:focus,
-    .user-message:focus {
+    .user-data-input:required:focus,
+    .user-message:required:focus {
         outline: none;
     }
     
