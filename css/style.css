@@ -232,12 +232,6 @@
         margin-bottom: 30px;
     }
     
-    .user-data-input-box {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    }
-    
     .user-data-input-box,
     .user-message {
         flex-basis: 456px;
@@ -245,6 +239,11 @@
     
     .user-data-input {
         height: 52px;
+        width: 100%;
+    }
+    
+    .user-data-input:not(:last-of-type) {
+        margin-bottom: 28px;
     }
     
     .user-data-input,
@@ -287,6 +286,5 @@
         font-family: var(--main-font);
         font-weight: 700;
         font-size: 18px;
-        line-height: 1.2;
         color: #fff;
     }
